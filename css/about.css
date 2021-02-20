@@ -133,3 +133,11 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+button {
+    padding: 2% 4%;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 3%;
+}
