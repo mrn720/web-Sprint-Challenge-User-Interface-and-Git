@@ -56,6 +56,16 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
 .header-bar {
     display: flex;
     width: 800px;
@@ -77,4 +87,25 @@ html, body {
 .container-about-page {
     width: 800px;
     margin: 0 auto;
+}
+
+.top-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.info-parts-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.boxes-about {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
